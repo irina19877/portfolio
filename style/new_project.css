@@ -1,0 +1,94 @@
+@font-face {
+    font-family:"Montserrat",sans-serrif;
+    font-weight:700;
+    src: url(../fonts/montserrat-v26-latin-700.woff2);
+}
+@font-face {
+    font-family:"Roboto",sans-serrif;
+    font-weight:400;
+    src: url(../fonts/roboto-v30-latin-regular.woff2)   
+}
+@font-face {
+    font-family:"Oswald",sans-serrif;
+    font-weight:700;
+    src: url(../fonts/oswald-v53-latin-700.woff2);
+}
+@font-face {
+    font-family:"Oswald",sans-serrif;
+    font-weight:400;
+    src: url(../fonts/oswald-v53-latin-regular.woff2);
+}
+:root {
+    --main-color:#F2C94C;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto";
+    background: url('../image/car-3075497_1280 1.png'), lightgray 50% / cover no-repeat;
+    
+}
+.wrapper{
+    background-color: rgba(27, 29, 60, 0.6);
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    position: relative;
+}
+.icons {
+    border-radius: 0px 0px 10px 10px;
+    background: var(--Yellow, #F2C94C);
+    display: flex;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    padding: 12px 12px;
+}
+.icon{
+    margin: 0 10px;
+}
+.content{
+    display: flex;
+    height: 100vh;
+}
+.aside {
+    justify-content: left;
+    width: 384px;
+    opacity: 0.5;
+    background: var(--vdarkblue, #0B0B0D);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    position: relative;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 10px;
+    display: block;
+}
+.title {
+    align-items: center;
+}
+.last{
+    position: absolute;
+    bottom: 20px;
+}
+.logo{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: var(--FFF, #FFF);
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.35px;
+}
+.rigth-block {
+margin-top: 50px;
+}
